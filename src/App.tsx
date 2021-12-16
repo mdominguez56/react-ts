@@ -1,5 +1,6 @@
 import Counter from "./Componets/Counter";
 import UserInfo from "./Componets/User";
+import TimerFather from "./Componets/TimerFather";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <UserInfo />
       <hr />
       <h2> useEffect & useRef</h2>
+      <TimerFather />
     </>
   );
 }
