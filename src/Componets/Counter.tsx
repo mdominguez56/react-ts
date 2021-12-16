@@ -7,7 +7,7 @@ const Counter = () => {
   };
   return (
     <div className="mt-5">
-      <h3>Counter with useState with Typescript</h3>
+      <h3>Counter using useState with Typescript</h3>
       <span>Value: {counter} </span>
       <br />
       <button
