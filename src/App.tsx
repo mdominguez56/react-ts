@@ -2,6 +2,8 @@ import Counter from "./Componets/Counter";
 import UserInfo from "./Componets/User";
 import TimerFather from "./Componets/TimerFather";
 import CounterReducer from "./Componets/CounterReducer";
+import Form from "./Componets/Form";
+import Form2 from "./Componets/Form2";
 
 function App() {
   return (
@@ -16,6 +18,10 @@ function App() {
       <hr />
       <h2> useReducer</h2>
       <CounterReducer />
+      <hr />
+      <h2>Custom Hooks</h2>
+      <Form />
+      <Form2 />
     </>
   );
 }
